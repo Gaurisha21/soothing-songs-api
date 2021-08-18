@@ -46,8 +46,8 @@ app = flask.Flask(__name__)
 
 @app.route('/', methods=['GET'])
 def home():
-    return '''<h1>Distant Reading Archive</h1>
-<p>A prototype API for distant reading of science fiction novels.</p>'''
+    return '''<h1>Soothing Songs Recommendation</h1>
+<p>A prototype API for Soothing Soothing Songs Recommendation.</p>'''
 
 
 @app.route('/api/songs/all', methods=['GET'])
